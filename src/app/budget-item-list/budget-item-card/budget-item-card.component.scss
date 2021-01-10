@@ -1,0 +1,29 @@
+@import '../../../styles.scss';
+
+p {
+    margin-bottom: 0;
+}
+
+.root {
+    background-color: $light-grey;
+    
+    .budget-item {        
+        cursor: pointer;
+    
+        .description {
+            font-size: 18px;
+        }
+    }
+}
+
+.expense {
+    p {
+        color: $red;
+    }
+
+    .amount {
+        background-color: $light-red;
+    }
+}
+
+

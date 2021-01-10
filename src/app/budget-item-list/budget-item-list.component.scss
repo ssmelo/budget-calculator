@@ -1,0 +1,25 @@
+@import '../../styles.scss';
+
+.budget-items-container {
+    max-width: 680px;
+    width: 100%;
+
+    h1 {
+        font-family: 'Lato';
+        font-size: 24px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+
+    .income-column {
+        h1 {
+            color: $green;
+        }
+    }
+
+    .expenses-column {
+        h1 {
+            color: $red;
+        }
+    }
+}
